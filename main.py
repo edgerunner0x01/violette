@@ -51,7 +51,7 @@ BANNER_TEXT = f"""[cyan]
 
 class NetworkScanner:
     def __init__(self, db_path='scanner.db', threads=10, timeout=300):
-        self.fresh_scan = True  
+        self.fresh_scan = False  
         self.version = VERSION
         self.console = Console()
         self.display_banner()
