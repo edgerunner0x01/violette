@@ -306,7 +306,7 @@ class NetworkScanner:
     def display_result(self, result):
         self.console.print(f"[green] - Found host: {result['ip']} [cyan](OS: {result['os']})")
         for port, info in result['ports'].items():
-            self.console.print(f" Port {port}: {info.get('name', '')} {info.get('version', '')}")
+            self.console.print(f"   Port {port}: {info.get('name', '')} {info.get('version', '')}")
 
     def display_summary(self):
         panel = Panel(f"""
