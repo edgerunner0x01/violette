@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+#########################################################
+#        Violette - Network Scanner Framework           #
+#              Author  - edgerunner0x01                 #
+#        https://github.com/edgerunner0x01/violette     #
+#########################################################
+
 import sqlite3
 import json
 from datetime import datetime
