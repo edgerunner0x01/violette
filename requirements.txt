@@ -1,0 +1,7 @@
+nmap-python>=0.7.1
+flask>=2.0.0
+rich>=10.0.0
+psutil>=5.8.0
+requests>=2.26.0
+packaging>=21.0
+sqlite3-api>=0.1.0
